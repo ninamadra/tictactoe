@@ -1,4 +1,3 @@
-
 .button{
     -fx-background-insets: -1, 0, 1, 1;
     -fx-background-color: radial-gradient(radius 180%,#599bb3, #366373) ;
@@ -17,7 +16,7 @@
 .button:hover {
     -fx-background-color:radial-gradient(radius 180%,#408c99, #2f6872);
 }
-.winning-button{
+.winningButton{
     -fx-background-insets: -1, 0, 1, 1;
     -fx-background-color:radial-gradient(radius 180%, #a73f2d, #863122);
     -fx-border-radius:4px;
@@ -29,7 +28,7 @@
     -fx-font-weight:bold;
     -fx-padding:19px 23px;
 }
-.winning-button:hover {
+.winningButton:hover {
     -fx-background-color:radial-gradient(radius 180%,#b34332, #863122);
 }
 .label{
