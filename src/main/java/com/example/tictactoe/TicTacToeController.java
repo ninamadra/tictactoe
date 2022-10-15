@@ -3,9 +3,10 @@ package com.example.tictactoe;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+
 import java.util.Objects;
 
-public class TicTacToeController {
+public final class TicTacToeController {
 
     @FXML
     private Button b1;
@@ -25,6 +26,7 @@ public class TicTacToeController {
     private Button b8;
     @FXML
     private Button b9;
+
     private boolean isFirstPlayer = true;
 
     public void buttonClickHandler(final ActionEvent evt) {
